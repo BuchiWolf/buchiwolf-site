@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈奕迅 - 专辑歌曲合集</title>
+    <!-- 引入Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 使用Tailwind的默认sans-serif字体 (Inter) */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* 自定义滚动条样式 (可选) */
+        .song-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .song-list::-webkit-scrollbar-thumb {
+            background: #4a5568; /* gray-700 */
+            border-radius: 3px;
+        }
+        .song-list::-webkit-scrollbar-track {
+            background: #2d3748; /* gray-800 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+
+        <!-- 网页标题 -->
+        <header class="text-center mb-8 md:mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-2">
+                陈奕迅 专辑歌曲合集
+            </h1>
+            <p class="text-lg text-gray-400">Eason Chan | Music Collection</p>
+        </header>
+
+        <!-- 搜索框 -->
+        <div class="mb-8 md:mb-12 max-w-2xl mx-auto">
+            <input type="text" id="searchInput" 
+                   placeholder="搜索专辑名或歌曲名..."
+                   class="w-full p-4 bg-gray-800 text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-lg">
+        </div>
+
+        <!-- 专辑卡片网格 -->
+        <main id="albumGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+            <!-- 专辑卡片 1: U87 (2005) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">U87 (2005)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">夕阳无限好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阿牛</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">浮夸</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">葡萄成熟时</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">三个人的探戈</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不良示范</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 专辑卡片 2: 认了吧 (2007) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">认了吧 (2007)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">淘汰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱情转移</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">好久不见</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">红玫瑰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">快乐男生</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">路...一直都在</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 专辑卡片 3: H³M (2009) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">H³M (2009)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">七百年后</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">沙龙</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不来也不去</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">于心有愧</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Allegro, Opus 3.3 am</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天只做一件事</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 专辑卡片 4: ...3mm (2012) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">...3mm (2012)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">重口味</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">完</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">碌卡</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Class</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">非礼</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 专辑卡片 5: L.O.V.E. (2018) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">L.O.V.E. (2018)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们万岁</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">龙舌兰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">渐渐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">可一可再</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一个灵魂的独白</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 专辑卡片 6: CHIN UP! (2023) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">CHIN UP! (2023)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">社交牛逼症</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">盲婚哑嫁</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">尘大师</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人啊人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">空城记</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 你可以在这里添加更多专辑卡片 -->
+
+        </main>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>这是一个示例页面。歌曲链接均为占位符。</p>
+        </footer>
+    </div>
+
+    <script>
+        // 等待文档内容加载完毕后执行
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            const albumCards = document.querySelectorAll('.album-card');
+
+            // 监听搜索框的输入事件
+            searchInput.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase().trim();
+
+                // 遍历所有专辑卡片
+                albumCards.forEach(card => {
+                    const title = card.querySelector('h2').textContent.toLowerCase();
+                    const songs = card.querySelectorAll('.song-link');
+                    
+                    let songsText = '';
+                    songs.forEach(song => {
+                        songsText += song.textContent.toLowerCase() + ' ';
+                    });
+
+                    // 检查专辑标题或歌曲列表是否包含搜索词
+                    if (title.includes(searchTerm) || songsText.includes(searchTerm)) {
+                        card.style.display = 'block'; // 显示卡片
+                    } else {
+                        card.style.display = 'none';  // 隐藏卡片
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
