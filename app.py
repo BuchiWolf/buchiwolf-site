@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route('/eason-muskc')
+@app.route('/eason-music')
 def eason_music_page():
     # 'eason_chan_music.html' have to be in folder templates
     return render_template('eason_chan_music.html')

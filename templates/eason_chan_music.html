@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>陈奕迅 - 专辑歌曲合集</title>
-    <!-- 引入Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* 使用Tailwind的默认sans-serif字体 (Inter) */
@@ -28,7 +27,6 @@
 
     <div class="container mx-auto px-4 py-8 md:py-12">
 
-        <!-- 网页标题 -->
         <header class="text-center mb-8 md:mb-12">
             <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-2">
                 陈奕迅 专辑歌曲合集
@@ -36,104 +34,715 @@
             <p class="text-lg text-gray-400">Eason Chan | Music Collection</p>
         </header>
 
-        <!-- 搜索框 -->
         <div class="mb-8 md:mb-12 max-w-2xl mx-auto">
             <input type="text" id="searchInput" 
-                   placeholder="搜索专辑名或歌曲名..."
+                   placeholder="搜索专辑名或歌曲名 (共36张专辑)..."
                    class="w-full p-4 bg-gray-800 text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-lg">
         </div>
 
-        <!-- 专辑卡片网格 -->
         <main id="albumGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
-            <!-- 专辑卡片 1: U87 (2005) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">陈奕迅 (1996)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">时代曲</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">伤信</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">游离份子</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我怕你不肯</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">有意无意</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">安守本份</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱情，幼稚！</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">从未痴心</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">其实我记得</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">当心中有恋爱感觉</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">一滴眼泪 (1997)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一滴眼泪</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">拜访</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱到疯</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">永远都天明</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">情深怎么办</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我怎么可以哭</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">学会爱</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Style</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">二个人的夜晚</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">感情约</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">与我常在 (1997)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">现场直播</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">与我常在</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱没有左右</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">生命有几好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">抱拥这分钟</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">那一夜有没有雪？ (Demo Version)</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">伴游</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">跟我走好吗</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天等我来</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">敌人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">那一夜有没有说？</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">酝酿 (1997)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">预感</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">酝酿</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">摊开双手</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">换季</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱的傀儡</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">感动</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我终于放开了她</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">好聚好散</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">宠爱</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">La’mour</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Taipei City</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">预感(伴奏)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">我的快乐时代 (1998)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我的快乐时代</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我什么都没有</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天下无双</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黄金时代</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">新曲+精选</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">愈想愈无谓</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">相信相依</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">两种讲法</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">请相信我</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">反高潮</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">新生活 新歌+精选 (1998)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">终于一百日</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">新生活</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">游移的伤口</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我什么都没有</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">地狱咒</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">与我常在</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">抱拥这分钟</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天一半、地一半</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天下无双</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天等我来</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">回绝</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">伤信</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我的快乐时代</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">多一点</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">时代曲</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">游离份子</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我怕你不肯</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">美满人生</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">超人的主题曲</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">天佑爱人 (1999)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">昨日</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今日</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">每一个明天</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">眼眉调</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">第五个现代化</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">快高长大</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">如果这一秒钟你跟我讲你不爱我</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我的世界末日</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">贝多芬与我</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">婚礼的祝福 (1999)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">婚礼的祝福</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">拔河</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我的开始在这里</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">转机</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">My Girl</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">掏空</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">伤心证明书</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">1个2个3个4个</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Just Between The Two Of Us</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">存在</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">68’29” (2000)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">原来这里没有你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天网</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天下无双</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我的快乐时代</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黄金时代</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我什么都没有</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">第五个现代化</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">贝多芬与我</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天等我来</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">抱拥这分钟</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">现场直播</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">伤信</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">游离份子</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">安守本份</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">时代曲</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们不哭了</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            //  More album cards go here...
+            //  1999 幸福
+
+
+
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Nothing Really Matters (2000)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">送院途中</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黑夜不再来</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">美丽有罪</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">戏迷情人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">和平饭店</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我感激</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">到此一游</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">当这地球没有花</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Made In Hong Kong</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱上你是我眼睛的错</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">打得火热 (2000)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">K歌之王</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">打得火热</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">新广告歌</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">低等动物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">绵绵</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">美丽谎言</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">吹微风</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">温室效应</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">活跃症</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">下周同样时间(再见)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Shall We Dance？Shall We Talk！ (2001)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">嚟喇</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Shall We Dance</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Shall We Talk</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">001太空漫游</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">失恋太少</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">单车</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">天使的礼物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Eason’s Angel</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">怪物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">孤独探戈</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">信心花舍</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黑暗中漫舞</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">The Easy Ride (2001)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阿士匹灵</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阳性反应</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">冲口而出</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">大开眼戒</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我不好爱</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">热带雨林</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人工智能</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">结束开始</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">活着多好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">他一个人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不知所谓</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">反正是我 (2001)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Because You’re Good To Me</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">低等动物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不如这样</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱是怀疑</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我也不会那么做</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">K歌之王</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">没有你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">冤家</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">全世界失眠</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Good Times</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Special Thanks To (2002)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Special Thanks To 1</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">你的背包</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谢谢侬</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">男人的错</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">你会不会</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">故事</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">想哭</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Special Thanks To 2</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人造卫星</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">没手机的日子</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">跳蚤市场</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">狂人日记</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Special Thanks To 3</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">给爱丽斯</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            // 五星级的家
+            // 2002
+
+
+
+
+
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">The Line-Up (2002)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">心里有鬼</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我有我爱你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">明年今日</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人来人往</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">季军</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">随意门</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">1874</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">防不胜防</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">两名男子街头相遇</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黑面</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Live For Today (2003)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">幸灾乐祸</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Katrina</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">十面埋伏</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">呀边个边个</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">小孩不懂怕</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谎言</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">真相</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">猜情寻</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">忘记歌词</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">New Order</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">岁月如歌</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">七 (2003)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">圣诞结</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Shall We Talk</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">寂寞让你更快乐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">K歌之王</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">想哭</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱是怀疑</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">十年</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不如这样</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谢谢侬</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">你的背包</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">低等动物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">男人的错</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Last Order</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">没有手机的日子</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">要你的</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">全世界失眠</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">兄妹</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们都寂寞</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">黑白灰 (2003)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阿怪</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们都寂寞</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">兄妹</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">十年</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">要你的</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">世界</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谢谢</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">像一句广告</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">寂寞奏鸣曲</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Last Order</a></li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4 text-blue-300">U87 (2005)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">夕阳无限好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">烂</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阿牛</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">夕阳无限好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">16月6日 晴</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">浮夸</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">葡萄成熟时</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">三个人的探戈</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不良示范</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不良嗜好</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">怕死</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">大个女</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">新美人主义</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">遇见了你</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- 专辑卡片 2: 认了吧 (2007) -->
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">怎么样 (2005)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不能再等待</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">对不起，谢谢</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不然你要我怎么样</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不睡</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一夜销魂</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">浮城</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">早开的长途班</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">听听</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人神斗</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Hippie</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Life Continues… (2006)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">低调</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人车志</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">最佳损友</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">暴殄天物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">落花流水</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">大得太快</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">想听</a></li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4 text-blue-300">认了吧 (2007)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">烟味</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">淘汰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">快乐男生</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">红玫瑰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">月黑风高</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱情转移</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">好久不见</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">红玫瑰</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">快乐男生</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">路...一直都在</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">爱是一本书</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">第一个雅皮士</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">白色球鞋</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">月球上的人</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- 专辑卡片 3: H³M (2009) -->
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-blue-300">H³M (2009)</h2>
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">不想放手 (2008)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">七百年后</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">沙龙</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不来也不去</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">于心有愧</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Allegro, Opus 3.3 am</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天只做一件事</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">27 Seconds</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">倒带人生</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Aren’t You Glad</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不要说话</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">漂亮小姐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">土星环</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">然后怎样</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">7</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">臭美</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">独居动物</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">路…一直都在</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- 专辑卡片 4: ...3mm (2012) -->
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-blue-300">...3mm (2012)</h2>
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">H3M (2009)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Allegro Opus 3.3am</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">还有什么可以送给你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">于心有愧</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">今天只做一件事</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一个旅人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">七百年后</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Life Goes On</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">太阳照常升起</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不来也不去</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">沙龙</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">上五楼的快活 (2009)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">在你身边</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">这样的一个麻烦</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">多少</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Nothing Ever Happened</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">你为什么哭了呢</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谋情害命</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我甲你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">心的距离</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">床头灯</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">给你</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">从何说起</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Taste The Atmosphere (2010)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Welcome To The Future</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">讲男讲女</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">叶问风中转</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">花花世界</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我杯茶</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">超错</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">叶问风中转 (Demo Version)</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">讲男讲女 (NG take)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Time Flies (2010)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">无人之境</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">大人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一丝不挂</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">陀飞轮</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">心腹</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">味之素</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Stranger Under My Skin (2011)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Stranger Under My Skin</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">最后派对</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">苦瓜</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">沼气</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">My Private Christmas Song</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">乐园</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">等你爱我</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">因为爱情</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">六月飛霜</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">？ (2011)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">孤独患者</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">哎呀咿呀</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">看穿</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">吟游诗人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">张氏情歌</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Baby Song</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">听一千遍后</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">内疚</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">还要不要走</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">积木</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">神奇化妆师</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Muffin Man</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">那些让你死去活来的女孩</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">…3mm (2012)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">重口味</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">完</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">碌卡</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Class</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">非礼</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Class</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">碌卡</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">笑死朕</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">蚊</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Let It Out</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">习惯说</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">信任</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">完</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- 专辑卡片 5: L.O.V.E. (2018) -->
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-blue-300">L.O.V.E. (2018)</h2>
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">The Key (2013)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们万岁</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">龙舌兰</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">渐渐</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">可一可再</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">主旋律</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">告别娑婆</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">斯德哥尔摩情人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">任我行</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">远在咫尺</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">失忆蝴蝶</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">床头床尾</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-3M00 hover:underline transition-colors">阿猫阿狗</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">同舟之情</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">Rice & Shine (2014)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">娱乐天空</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">四季圈</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">愚人快乐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">不如承诺来的简单</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">对面</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">放弃治疗</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">时光隧道</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">可以了</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">阴天快乐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">你给我听好</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">准备中 (2015)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">老细我撇先</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">无条件</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人生马拉松</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">黑洞</a></li>
+                        <li><a href="#" classs="song-link hover:text-blue-300 hover:underline transition-colors">心烧</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">喜欢一个人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">万圣节的一个传说</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">起点·终站</a></li>
                         <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">一个灵魂的独白</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">梦的可能</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">异梦</a></li>
                     </ul>
                 </div>
             </div>
-            
-            <!-- 专辑卡片 6: CHIN UP! (2023) -->
+
             <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
                 <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-blue-300">CHIN UP! (2023)</h2>
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">C’mon in~ (2017)</h2>
                     <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">社交牛逼症</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">盲婚哑嫁</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">尘大师</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">人啊人</a></li>
-                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">空城记</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">放</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">收心操</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">海胆</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">谁来剪月光</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">床上的黑洞</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">右上角</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">之外</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">傅科摆</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">零下几分钟</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">披风</a></li>
                     </ul>
                 </div>
             </div>
-            
-            <!-- 你可以在这里添加更多专辑卡片 -->
+
+            <div class="album-card bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-blue-500/20">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-300">L.O.V.E (2018)</h2>
+                    <ul class="song-list space-y-2 max-h-60 overflow-y-auto list-disc list-inside text-gray-200">
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">8：15pm</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">破坏王</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">海里睡人</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">渐渐</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Devotion (Interlude)</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">敬烟</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">蠢</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">疯狂的朋友</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Unity (Interlude)</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">R U N</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">龙舌兰</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">我们万岁</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">Originality (Interlude)</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">与你常在</a></li>
+                        <li><a href="#" class="song-link hover:text-blue-300 hover:underline transition-colors">可一可再</a></li>
+                    </ul>
+                </div>
+            </div>
 
         </main>
 
